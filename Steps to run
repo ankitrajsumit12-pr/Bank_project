@@ -1,1 +1,63 @@
+# 🚀 Steps to Run the Project
 
+1. **Download or Clone the Project**
+   ```bash
+   git clone <repository-link>
+   ```
+   Or download the ZIP file and extract it.
+
+2. **Open the Project in Visual Studio Code**
+   - Open VS Code.
+   - Click **File → Open Folder**.
+   - Select the project folder.
+
+3. **Open the Terminal**
+   - Go to **Terminal → New Terminal**.
+   - Or press **Ctrl + `**.
+
+4. Write in terminal :- 
+   npm install
+   
+
+5. After that write :-
+   node server.js
+
+6.  **Open the Application**
+   - Open your browser and visit:
+    
+     http://localhost:3000
+     
+
+
+=====================  Run Successfully ========================
+Your Bank Management System should now be running successfully.
+
+
+
+
+
+Again if it will not run then :- 
+## ❓ Still Facing Issues?
+
+If the project still does not run, try the following:
+
+1. Make sure **Node.js** is installed:
+   ```bash
+   node -v
+   npm -v
+   ```
+
+2. Reinstall all dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Verify that your **MongoDB connection string** in `server.js` is correct and the database is accessible.
+
+4. Restart the server:
+   ```bash
+   node server.js
+   ```
+
+5. If you still encounter any errors, copy the complete error message from the terminal and create an issue in this repository or contact the project developer with the error details.
+================================================= Done =====================
